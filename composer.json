@@ -1,0 +1,26 @@
+{
+    "name": "innovia/paynet-gateway",
+    "description": "Paynet Gateway",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Unal Inanli",
+            "email": "unal.inanli@outlook.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Innovia\\Paynet\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Innovia\\Paynet\\Providers\\PaynetServiceProvider"
+            ],
+            "aliases": {}
+        }
+    },
+    "minimum-stability": "dev"
+}
